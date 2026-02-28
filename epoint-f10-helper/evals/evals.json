@@ -1,0 +1,35 @@
+{
+  "skill_name": "epoint-f10-helper",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I need to create a new Action for managing user data in my Epoint F10 project. The action should handle listing, adding, editing, and deleting user records.",
+      "expected_output": "Generate Action classes (UserListAction, UserAddAction, UserEditAction) with proper annotations, base class extension, and CRUD method stubs following Epoint F10 conventions.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Help me create a DSL database script for a new 'product' table with fields: id (primary key), name (required, varchar 128), price (decimal), status (combobox: active/inactive), and audit fields (create_time, create_user, update_time, update_user).",
+      "expected_output": "Generate a properly formatted DB.DSL file in JSON format with the product table definition including all specified fields, codeGroups for status, and proper formConfig/listConfig for each field.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I want to create a fui list page for displaying product information with columns for name, price, status, and create time. Include buttons for add, edit, and delete operations.",
+      "expected_output": "Generate an HTML list page using fui components (mini-datagrid, mini-toolbar, mini-button) with proper action bindings and JavaScript handlers for CRUD operations.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Create a Service layer for order management. I need the interface and implementation classes with methods to find all orders, find by ID, insert, update, and delete.",
+      "expected_output": "Generate IOrderService interface and OrderServiceImpl class with proper annotations (@Service, @Transactional), all CRUD method signatures, and following Epoint naming conventions.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "I need to add a new feature to my Epoint F10 app - a category management module with full CRUD. Can you set up the basic structure?",
+      "expected_output": "Generate the complete scaffolding: DSL script for category table, Service interface and implementation, ListAction and AddAction classes, and a basic list HTML page using fui components.",
+      "files": []
+    }
+  ]
+}
